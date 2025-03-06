@@ -1,0 +1,32 @@
+#root{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-bar__filler span {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.progress-bar__filler{
+    height: 100%;
+    background-color: #00c251;
+    border-radius: 50px;
+}
